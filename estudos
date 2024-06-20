@@ -1,0 +1,1378 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+// The main method must be in a class named "Main".
+class Main {
+    public static void main(String[] args) {
+        //Dados do cliente
+        byte minhaIdade = 29;
+        String firstName = "Rodolfo Mariucci";
+       
+                System.out.println(minhaIdade);
+                System.out.println(firstName.toUpperCase());
+    }
+}
+
+
+
+______________________________
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+// The main method must be in a class named "Main".
+class Main {
+    public static void main(String[] args) {
+        //Dados do cliente
+        byte minhaIdade = 29;
+        int salarioMensal = 50_000;
+        long idadeMilisegundos = 2983437472397987L;
+        char initial = 'R';
+        boolean eMarioDeIdade = true;
+        String firstName = "Rodolfo" + " Mariucci";
+       
+                System.out.println(minhaIdade);
+                System.out.println(firstName.toLowerCase());
+                System.out.println(salarioMensal);
+                System.out.println(idadeMilisegundos);
+    }
+}
+
+
+
+---------------
+
+
+String firstName = "Rodolfo" + " \nMariucci";
+outra linha
+
+String firstName = "Rodolfo" + " \tMariucci";
+dá um tab
+
+
+----
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+// The main method must be in a class named "Main".
+class Main {
+    public static void main(String[] args) {
+        //Dados do cliente
+        byte minhaIdade = 29;
+        int salarioMensal = 50_000;
+        long idadeMilisegundos = 2983437472397987L;
+        char initial = 'R';
+        boolean eMarioDeIdade = true;
+        String firstName = "Rodolfo" + " \nMariucci";
+       
+        System.out.println(minhaIdade);
+        System.out.println(firstName.toLowerCase());
+        System.out.println(salarioMensal);
+        System.out.println(idadeMilisegundos);
+        System.out.println("oi");
+    }
+}
+
+
+----------------
+
+boolean
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+// The main method must be in a class named "Main".
+class Main {
+    public static void main(String[] args) {
+        //Dados do cliente
+        byte minhaIdade = 29;
+        int salarioMensal = 50_000;
+        long idadeMilisegundos = 2983437472397987L;
+        char initial = 'R';
+        boolean eMaiorDeIdade = 30 >= 18;
+        String firstName = "Rodolfo" + " \nMariucci";
+       
+        System.out.println(minhaIdade);
+        System.out.println(firstName.toLowerCase());
+        System.out.println(salarioMensal);
+        System.out.println(idadeMilisegundos);
+        System.out.println("oi");
+        System.out.println(eMaiorDeIdade);
+            if (eMaiorDeIdade) {
+                System.out.println("É maior de idade");
+            }else {
+                System.out.println("É menor de idade");
+            }
+    }
+}
+
+
+
+------
+
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+// The main method must be in a class named "Main".
+class Main {
+    public static void main(String[] args) {
+        //Dados do cliente
+        byte minhaIdade = 29;
+        int salarioMensal = 50_000;
+        long idadeMilisegundos = 2983437472397987L;
+        char initial = 'R';
+        boolean eMaiorDeIdade = 30 >= 18;
+        String firstName = "Rodolfo" + " \nMariucci";
+       
+        System.out.println(minhaIdade);
+        System.out.println(firstName.toLowerCase());
+        System.out.println(salarioMensal);
+        System.out.println(idadeMilisegundos);
+        System.out.println("oi");
+        System.out.println(eMaiorDeIdade);
+            if (eMaiorDeIdade) {
+                System.out.println("É maior de idade");
+            }else {
+                System.out.println("É menor de idade");
+            }
+    }
+}
+
+
+----
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner idadeScanner = new Scanner(System.in);
+        System.out.println("Digite a sua idade: ");
+        byte idadeCliente = idadeScanner.nextByte();
+		        System.out.println("sua idade é: " + idadeCliente);
+
+       
+    }
+}
+
+
+--------------------------
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner idadeScanner = new Scanner(System.in);
+        System.out.println("Digite a sua idade: ");
+        byte idadeCliente = idadeScanner.nextByte();
+        System.out.println(idadeCliente);
+       
+    }
+}
+
+-----------------
+
+
+
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner primeironumeroScanner = new Scanner(System.in);
+        System.out.print("Digite o primeiro numero: ");
+        int primeironumero = primeironumeroScanner.nextInt();
+        System.out.println(primeironumero);
+
+        Scanner segundonumeroScanner = new Scanner(System.in);
+        System.out.println("Digite o segundo numero: ");
+        int segundonumero = segundonumeroScanner.nextInt();
+        System.out.println(segundonumero);
+
+        int resultado = primeironumero + segundonumero;
+        System.out.println("Resultado da soma foi: " + resultado);
+   
+       
+    }
+}
+
+------------
+
+
+quando ta como int, é um array
+
+
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) {
+        int[] valores = {10, 15, 20, 40};
+        System.out.println(Arrays.toString(valores));
+       
+    }
+}
+
+
+---
+
+
+em ordem , poe o sort
+
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) {
+        int[] valores = {10, 15, 20, 40, 60, 05};
+        Arrays.sort(valores);
+        System.out.println(Arrays.toString(valores));
+       
+    }
+}
+
+
+------------------
+
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) {
+        int[] valores = {10, 15, 20, 40, 60, 05};
+        Arrays.sort(valores);
+        System.out.println(Arrays.toString(valores));
+        System.out.println(valores.length);
+       
+    }
+}
+
+-------------------------------
+
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) {
+        int[] valores = {10, 15, 20, 40, 60, 05};
+        Arrays.sort(valores);
+        System.out.println(Arrays.toString(valores));
+        System.out.println(valores.length);
+       
+    }
+}
+
+length = mostra quantos
+
+--------
+
+
+index o primeiro é sempre 0
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) {
+        String[] cars = {"BMW", "Tesla", "Jeep", "Fiat"};
+        System.out.println(Arrays.toString(cars));
+         System.out.println(cars[0]);
+       
+    }
+}
+
+retorna o BMW
+
+------
+
+
+
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) {
+        String[] cars = {"BMW", "Tesla", "Jeep", "Fiat"};
+        cars[2] = "Ferrari";
+        System.out.println(Arrays.toString(cars));
+         System.out.println(cars[2]);
+       
+    }
+}
+
+
+
+add um array
+
+
+--------
+
+
+
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) {
+        String[][] cars = {{"BMW", "Tesla"}, {"Jeep", "Fiat"}};
+        System.out.println(Arrays.deepToString(cars));
+     
+    }
+}
+
+multidimensional
+2 arrays
+
+
+-----------------------------
+
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) {
+        final double taxadejuros = 11.92;
+        System.out.printls(taxadejuros);
+        taxadejuros = 11.52; -------------> nao executa, pq tem o final double que mantem
+        System.out.printls(taxadejuros);
+     
+    }
+}
+
+
+--------------------------------
+
+
+
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) {
+        float a = (float)4 / (float)3;
+        System.out.println(a);
+     
+    }
+}
+
+
+-------------------------
+
+
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) {
+        int a = 4;
+        a++;
+        System.out.println(a);
+     
+    }
+}
+
+soma 1
+
+---------------------------
+
+
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) {
+        int a = 4;
+        a--;
+        System.out.println(a);
+     
+    }
+}
+
+
+
+
+subtrai 1
+
+
+----------------------
+
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) {
+        String valorProduto = "10";
+        int valorTotal = Integer.parseInt(valorProduto) + 2000;
+        System.out.println(valorTotal);
+     
+    }
+}
+
+converte de string p integer e poder somar string com int
+
+
+-----
+
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) {
+        double value = Math.round (10.2);
+        System.out.println(value);
+       
+     
+    }
+}
+
+arredonda
+
+classes précriadas,
+chama a classe e ele executa
+
+
+
+Math.ceil -- arredendo pra mais
+----------------
+
+
+
+public class Main {
+    public static void main(String[] args) {
+        double value = Math.round(Math.random() * 100);
+        System.out.println(value);
+       
+     
+    }
+}
+
+
+ele arrendo o aleatório
+
+
+
+---------------
+
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) {
+        int value = (int)Math.round(Math.random() * 100);
+        System.out.println(value);
+       
+     
+    }
+}
+
+
+forço ele para ser inteiro, sem ponto
+com o casting (int)
+
+
+-----------------
+
+
+java math class pra ver tudo
+
+-----------
+
+
+
+
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) {
+        int[] my_array1 = {
+                1789, 2035, 1899, 1456, 2013,
+                1458, 2458, 1254, 1472, 2365,
+                1456, 2165, 1457, 2456};
+        String[] my_array2 = {
+                "Java",
+                "Python",
+                "PHP",
+                "C#",
+                "C Programming",
+                "C++"};
+       
+        System.out.println("Array 1 - Original: " + Arrays.toString(my_array1));
+       
+         Arrays.sort(my_array1);
+        System.out.println("Array 1 - em ordem: " + Arrays.toString(my_array1));
+       
+        System.out.println("Array 2 - Original: " + Arrays.toString(my_array2));
+       
+         Arrays.sort(my_array2);
+        System.out.println("Array 2 - em ordem: " + Arrays.toString(my_array2));
+    }
+}
+
+
+
+
+[1789, 2035, 1899, 1456, 2013, 1458, 2458, 1254, 1472, 2365, 1456, 2165, 1457, 2456]
+[1254, 1456, 1456, 1457, 1458, 1472, 1789, 1899, 2013, 2035, 2165, 2365, 2456, 2458]
+[Java, Python, PHP, C#, C Programming, C++]
+[C Programming, C#, C++, Java, PHP, Python]
+
+[Execution complete with exit code 0]
+
+
+
+----------------------------------
+
+
+NÉLIO ALVES
+
+
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner idadeScanner = new Scanner(System.in);
+        System.out.println("Digite a sua idade: ");
+        byte idadeCliente = idadeScanner.nextByte();
+		        System.out.println("sua idade é: " + idadeCliente);
+
+       
+    }
+}
+
+
+
+-------------------------------
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) {
+    	double x = 123.12321;
+        System.out.printf("%.2f%n", x);
+        System.out.printf("%.6f%n", x);
+        Locale.setDefault(Locale.US);
+        System.out.printf("%.2f%n", x);
+        System.out.printf("%.6f%n", x);
+    }
+}
+
+
+
+instalado localepara padrao EUA, com ponto ao inves de virgula
+
+
+-----------------
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) {
+    	String nome = "Maria";
+    	int idade = 31;
+    	double renda = 4000.0;
+        System.out.printf("%.2f%n", x);
+        System.out.printf("%.6f%n", x);
+        Locale.setDefault(Locale.US);
+        System.out.printf("%.2f%n", x);
+        System.out.printf("%.6f%n", x);
+        System.out.println("Resultado " + x + " METROS");
+        System.out.printf("Resultado = %.2f metros%n", x);        
+
+    }
+}
+
+
+-----------------------------
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) {
+    	String nome = "Maria";
+    	int idade = 31;
+    	double renda = 4000.0;
+        System.out.printf("%s tem %d anos e ganha R$ %.2f reais%n", nome, idade, renda);
+        
+
+    }
+}
+
+
+print f = formatado
+
+
+------------------------
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) {
+    	String product1 = "Computer";
+    	String product2 = "Office desk";
+    	int age = 30;
+    	int code = 5290;
+    	char gender = 'F';
+    	double price1 = 2100.0;
+    	double price2 = 650.50;
+    	double measure = 53.234567;
+        System.out.printf("Products:%n%s, wich price is $ %.2f "
+        		+ "%nOffice desk, wich price is $ %.2f %n"
+        		+ "%nRecord: %d years old, code %d and gender: %c %n"
+        		+ "%nMeasue with eight decimal places: %.8f"
+        		+ "%nRouded (three decimal places): %.3f", product1, price1, price2, age, code, gender, measure, measure);
+        Locale.setDefault(Locale.US);
+        System.out.printf("%nUS decimal point:  %.3f", measure);
+       
+        
+
+    }
+}
+
+
+
+
+%d, %s e %c, o que chamamos especificadores de formato, são usados em funções de IO para definir o tipo de dado a ser lido/escrito. Particularmente úteis quando se tem interesse em usar dados formatados. Todos os especificadores começam com o caráter %, seguido de um ou mais caracteres. Estes que você citou, em particular, designam, respectivamente, inteiro, string e caráter.
+
+
+
+
+https://cursos.alura.com.br/forum/topico-quando-usar-s-d-c-202882
+
+--------------------------------------------
+
+
+
+
+
+Resolução
+
+
+
+import java.util.Locale;
+public class Main {
+public static void main(String[] args) {
+String product1 = "Computer";
+String product2 = "Office desk";
+byte age = 30;
+int code = 5290;
+char gender = 'F';
+double price1 = 2100.0;
+double price2 = 650.50;
+double measure = 53.234567;
+System.out.println("Products:");
+System.out.printf("%s, which price is $ %.2f%n", product1, price1);
+System.out.printf("%s, which price is $ %.2f%n", product2, price2);
+System.out.println();
+System.out.printf("Record: %d years old, code %d and gender: %c%n", age, code, gender);
+System.out.println();
+System.out.printf("Measue with eight decimal places: %.8f%n", measure);
+System.out.printf("Rouded (three decimal places): %.3f%n", measure);
+Locale.setDefault(Locale.US);
+System.out.printf("US decimal point: %.3f%n", measure);
+
+
+-------------------------------------
+
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) {
+    	String product1 = "Computer";
+    	String product2 = "Office desk";
+    	int age = 30;
+    	int code = 5290;
+    	char gender = 'F';
+    	double price1 = 2100.0;
+    	double price2 = 650.50;
+    	double measure = 53.234567;
+        System.out.printf("Products:%n%s, wich price is $ %.2f "
+        		+ "%nOffice desk, wich price is $ %.2f %n"
+        		+ "%nRecord: %d years old, code %d and gender: %c %n"
+        		+ "%nMeasue with eight decimal places: %.8f"
+        		+ "%nRouded (three decimal places): %.3f", product1, price1, price2, age, code, gender, measure, measure);
+        Locale.setDefault(Locale.US);
+		System.out.printf("%nUS decimal point:  %.3f", measure);
+
+	}
+}
+
+
+
+----------------------------
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) {
+    	int x, y;
+    	x = 5;
+    	y = x * 2;
+    	
+    	
+    	System.out.println(y);
+
+	}
+}
+
+------------------
+
+
+public class Main {
+    public static void main(String[] args) {
+    	int x;
+    	double y;
+    	x = 5;
+    	y = x * 33;
+    	
+    	
+    	System.out.println(y);
+
+	}
+}
+
+
+com ponto flutuante
+
+-------------
+
+
+
+public class Main {
+    public static void main(String[] args) {
+    	double b, B, h, area;
+    	
+    	b = 6.0;
+    	B = 8.0;
+    	h = 5.0;
+    	
+    	area = (b + B) /2.0 * h;
+    	
+    	
+    	System.out.println(area);
+
+	}
+}
+
+double gasta mas byes do que 
+float que salva até 6 digitpos
+
+double salva ate 10 casas decimais
+
+
+-----------------
+
+float:
+
+
+public class Main {
+    public static void main(String[] args) {
+    	double b, B, h, area;
+    	
+    	b = 6f;
+    	B = 8f;
+    	h = 5f;
+    	
+    	area = (b + B) /2f * h;
+    	
+    	
+    	System.out.println(area);
+
+	}
+}
+
+
+
+----------------------
+
+
+
+public class Main {
+    public static void main(String[] args) {
+    	
+    	int a, b;
+    	double resultado;
+    	
+    	a = 5;
+    	b = 2;
+    	
+    	resultado = a / b;
+    	
+    	
+    	System.out.println(resultado);
+
+	}
+}
+
+
+
+igual 2.0 pq é inteiro
+------------------
+
+
+para ser 2.5
+
+
+public class Main {
+    public static void main(String[] args) {
+    	
+    	double a, b;
+    	double resultado;
+    	
+    	a = 5;
+    	b = 2;
+    	
+    	resultado = a / b;
+    	
+    	
+    	System.out.println(resultado);
+
+	}
+}
+
+
+fará  casting, a conversão expicita dos valores
+
+
+------------
+
+
+assim como:
+
+
+
+public class Main {
+    public static void main(String[] args) {
+    	
+    	double a;
+    	int b;
+    	
+    	a = 5.0;
+    	b = (int) a;
+    
+    	
+    	System.out.println(b);
+
+	}
+}
+
+
+
+------------------------
+
+
+digitar algo a partir do teclado:
+
+
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+    	
+    	Scanner sc = new Scanner (System.in);
+    	
+    	
+    	String x;
+    	x = sc.next ();
+    	System.out.println("Vc digitou: " + x);
+    	
+    	
+    	sc.close();
+
+	}
+} 
+
+
+Sysout ctr + espaco
+
+-------------------------------
+
+
+para imprimir número:
+
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+    	
+    	Scanner sc = new Scanner (System.in);
+    	
+    	
+    	int x;
+    	x = sc.nextInt ();
+    	System.out.println("Vc digitou: " + x);
+    	
+    	
+    	sc.close();
+
+	}
+} 
+
+
+------------------------
+
+
+imprimir com numero
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+    	
+    	Scanner sc = new Scanner (System.in);
+    	
+    	
+    	int x;
+    	x = sc.nextInt ();
+    	System.out.println("Vc digitou: " + x);
+    	
+    	
+    	sc.close();
+
+	}
+} 
+
+
+------------------
+
+
+imprmir com printf
+formatação
+
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+    	
+    	Scanner sc = new Scanner (System.in);
+    	
+    	
+    	double x;
+    	x = sc.nextDouble ();
+    	System.out.printf("Vc digitou: %.2f%n", + x);
+    	
+    	
+    	sc.close();
+
+	}
+} 
+
+
+
+------------------------
+
+
+
+imprimir com ponto pela regigao EUA
+
+
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+    	
+    	Locale.setDefault(Locale.US);
+    	Scanner sc = new Scanner (System.in);
+    	
+    	
+    	double x;
+    	x = sc.nextDouble ();
+    	System.out.printf("Vc digitou: %.2f%n", + x);
+    	
+    	
+    	sc.close();
+
+	}
+} 
+
+
+------------------
+
+
+para ler a primeira letra apenas
+
+
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+    	
+    	Locale.setDefault(Locale.US);
+    	Scanner sc = new Scanner (System.in);
+    	
+    	
+    	char x;
+    	x = sc.next().charAt(0);
+    	System.out.printf("Vc digitou: " + x);
+    	
+    	
+    	sc.close();
+
+	}
+} 
+
+
+-------------------------
+
+
+vários dados:
+
+
+
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+    	
+    	Locale.setDefault(Locale.US);
+    	Scanner sc = new Scanner (System.in);
+    	
+    	
+    	String x;
+    	int y;
+    	double z;
+    	x = sc.next();
+    	y = sc.nextInt();
+    	z = sc.nextDouble();
+    	System.out.println("Dados digitados: ");
+    	System.out.println(x);
+    	System.out.println(y);
+    	System.out.println(z);
+    	
+    	
+    	sc.close();
+
+	}
+} 
+
+
+------------------------
+
+
+Para imprimir:
+
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+    	
+    	Scanner sc = new Scanner (System.in);
+    	
+    	int x;
+    	String s1, s2, s3;
+    	
+    	x = sc.nextInt();
+    	sc.nextLine();    //se não der, der outro de leitura, e se der quebra de linha como enter, ela será absorvida pelo nextline próximo, por isso um extra
+    	s1 = sc.nextLine();
+    	s2 = sc.nextLine();
+    	s3 = sc.nextLine();
+    	
+    	System.out.println("Dados digitados: ");
+    	System.out.println(x);
+    	System.out.println(s1);
+    	System.out.println(s2);
+    	System.out.println(s3);
+    	
+    	
+    	sc.close();
+
+	}
+} 
+
+---------------------------
+
+
+
+
+SOMA
+
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+    	
+    	Scanner sc = new Scanner (System.in);
+    	
+    	int A, B, soma;
+    	
+    	A = sc.nextInt();
+    	B = sc.nextInt();
+    	
+    	soma = A + B;
+    	
+    	System.out.println("SOMA = " + soma);
+    	
+    	sc.close();
+
+
+	}
+} 
+
+
+---------------------------------------
+
+
+Estrutura condicional simples
+
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		int x = 5;
+		System.out.println("Bom dia");
+		if (x < 0) {
+			System.out.println("Boa tarde");
+		}
+		System.out.println("Boa noite");
+	}
+}
+
+
+
+
+-----------------------------------
+
+
+
+Estrutura condicional composta
+
+ou Estrutura de controle
+(vamos controlar conforme o valor que colocaremos na tela)
+
+
+
+
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int hora;
+		System.out.println("Quantas horas?");
+		hora = sc.nextInt();
+		if (hora < 12) {
+			System.out.println("Bom dia");
+		}
+		else {
+			System.out.println("Boa tarde");
+		}
+		sc.close();}
+	}
+
+
+
+
+
+-------------------------------------
+
+
+
+Encadeamento de estruturas condicionais
+
+
+
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int hora;
+		System.out.println("Quantas horas?");
+		hora = sc.nextInt();
+		if (hora < 12) {
+			System.out.println("Bom dia");
+		}
+		else {
+			System.out.println("Boa tarde");
+		}
+		sc.close();}
+	}
+
+
+
+
+
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        int hora;
+
+        System.out.println("Quantas horas?");
+        hora = sc.nextInt();
+
+        if (hora < 12) {
+            System.out.println("Bom dia");
+        } 
+		else {
+            if (hora < 18) {
+            System.out.println("Boa tarde");
+            } 
+			else {
+            System.out.println("Boa noite");
+            }
+        }
+
+        sc.close();
+    }
+}
+
+
+
+
+
+--------------------------------------
+
+
+DEBUG
+
+
+ import java.util.Locale; 
+ import java.util.Scanner; 
+ 
+ public class Main { 
+ 
+	public static void main(String[] args) { 
+		Locale.setDefault(Locale.US); 
+		Scanner sc = new Scanner(System.in); 
+		double largura = sc.nextDouble(); 
+		double comprimento = sc.nextDouble(); 
+		double metroQuadrado = sc.nextDouble(); 
+		double area = largura * comprimento; 
+		double preco = area * metroQuadrado; 
+		System.out.printf("AREA = %.2f%n", area); 
+		System.out.printf("PRECO = %.2f%n", preco); 
+		sc.close(); 
+	} 
+}   
